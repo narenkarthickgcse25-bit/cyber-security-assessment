@@ -1,0 +1,34 @@
+# Cyber Security Fundamentals & Security Assessment
+
+## Project Overview
+This project uses Python and Jupyter Notebook to perform a preliminary security configuration assessment of a website.
+
+## Objectives
+- Check common HTTP security headers.
+- Review potential security configuration risks.
+- Calculate a security header presence score.
+- Visualize assessment results.
+- Generate a security assessment report.
+
+## Technologies Used
+- Python
+- Jupyter Notebook
+- Requests
+- Pandas
+- Matplotlib
+
+## Project Files
+- `Cyber_Security_Assessment.ipynb` — assessment notebook
+- `security_headers.csv` — HTTP security header results
+- `security_risks.csv` — risk checklist and recommendations
+- `security_score.csv` — header presence score
+- `security_assessment_report.txt` — assessment report
+
+## Methodology
+The project sends an HTTP request to a demonstration website, checks selected response headers, records potential areas for review, and exports the results.
+
+## Limitations
+This is a preliminary configuration assessment, not a penetration test. Missing headers are not automatically confirmed vulnerabilities. The score measures header presence only and does not represent overall website security.
+
+## Conclusion
+The project demonstrates basic Python-based security assessment, data analysis, visualization, and report generation.
